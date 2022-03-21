@@ -1,2 +1,3 @@
-# oss-badge-dashboard
-Basic Github Dashboard with badge using Shields.io
+# Open Source Badge Dashboard
+
+Dynamic Github Dashboard with badge using Shields.io
