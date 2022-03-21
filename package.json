@@ -1,0 +1,25 @@
+{
+  "name": "oss-badge-dashboard",
+  "version": "1.0.0",
+  "description": "Github Dashboard with badge using Shields.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo generating md file..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmaSuriano/oss-badge-dashboard.git"
+  },
+  "keywords": [
+    "dashboard",
+    "oss",
+    "github",
+    "shields.io"
+  ],
+  "author": "EmaSuriano <emanuel.suriano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmaSuriano/oss-badge-dashboard/issues"
+  },
+  "homepage": "https://github.com/EmaSuriano/oss-badge-dashboard#readme"
+}
