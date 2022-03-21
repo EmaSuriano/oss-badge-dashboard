@@ -1,11 +1,26 @@
 {
   "projects": [
-    "/EmaSuriano/gatsby-starter-mate",
-    "/EmaSuriano/gatsby-starter-event-calendar",
-    "/EmaSuriano/react-hotkey-tooltip",
-    "/EmaSuriano/react-scroll-section"
+    "EmaSuriano/gatsby-starter-mate",
+    "EmaSuriano/gatsby-starter-event-calendar",
+    "EmaSuriano/react-hotkey-tooltip",
+    "EmaSuriano/react-scroll-section"
   ],
-  "badge": {
-    "style": "flat"
-  }
+  "columns": [
+    {
+      "name": "Build",
+      "badge": "https://github.com/{REPO_URL}/actions/workflows/master.yml/badge.svg"
+    },
+    {
+      "name": "Issues",
+      "badge": "https://img.shields.io/github/issues/{REPO_URL}"
+    },
+    {
+      "name": "Pull Requests",
+      "badge": "https://img.shields.io/github/issues-pr/{REPO_URL}"
+    },
+    {
+      "name": "Vulnerabilities",
+      "badge": "https://img.shields.io/snyk/vulnerabilities/github/{REPO_URL}"
+    }
+  ]
 }

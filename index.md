@@ -1,3 +1,8 @@
-## Open Source Dashboard
+# Projects
 
-![GitHub issues](https://img.shields.io/github/issues/EmaSuriano/gatsby-starter-mate?style=flat-square)
+| Name | Build | Issues | Pull Requests | Vulnerabilities |
+| ---- | ---- | ---- | ---- | ---- |
+| [gatsby-starter-mate](https://github.com/EmaSuriano/gatsby-starter-mate) | ![Build](https://github.com/EmaSuriano/gatsby-starter-mate/actions/workflows/master.yml/badge.svg) | ![Issues](https://img.shields.io/github/issues/EmaSuriano/gatsby-starter-mate) | ![Pull Requests](https://img.shields.io/github/issues-pr/EmaSuriano/gatsby-starter-mate) | ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/EmaSuriano/gatsby-starter-mate) |
+| [gatsby-starter-event-calendar](https://github.com/EmaSuriano/gatsby-starter-event-calendar) | ![Build](https://github.com/EmaSuriano/gatsby-starter-event-calendar/actions/workflows/master.yml/badge.svg) | ![Issues](https://img.shields.io/github/issues/EmaSuriano/gatsby-starter-event-calendar) | ![Pull Requests](https://img.shields.io/github/issues-pr/EmaSuriano/gatsby-starter-event-calendar) | ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/EmaSuriano/gatsby-starter-event-calendar) |
+| [react-hotkey-tooltip](https://github.com/EmaSuriano/react-hotkey-tooltip) | ![Build](https://github.com/EmaSuriano/react-hotkey-tooltip/actions/workflows/master.yml/badge.svg) | ![Issues](https://img.shields.io/github/issues/EmaSuriano/react-hotkey-tooltip) | ![Pull Requests](https://img.shields.io/github/issues-pr/EmaSuriano/react-hotkey-tooltip) | ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/EmaSuriano/react-hotkey-tooltip) |
+| [react-scroll-section](https://github.com/EmaSuriano/react-scroll-section) | ![Build](https://github.com/EmaSuriano/react-scroll-section/actions/workflows/master.yml/badge.svg) | ![Issues](https://img.shields.io/github/issues/EmaSuriano/react-scroll-section) | ![Pull Requests](https://img.shields.io/github/issues-pr/EmaSuriano/react-scroll-section) | ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/EmaSuriano/react-scroll-section) |
