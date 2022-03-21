@@ -1,0 +1,11 @@
+{
+  "projects": [
+    "/EmaSuriano/gatsby-starter-mate",
+    "/EmaSuriano/gatsby-starter-event-calendar",
+    "/EmaSuriano/react-hotkey-tooltip",
+    "/EmaSuriano/react-scroll-section"
+  ],
+  "badge": {
+    "style": "flat"
+  }
+}
