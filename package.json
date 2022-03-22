@@ -1,7 +1,7 @@
 {
   "name": "oss-badge-dashboard",
   "version": "1.0.0",
-  "description": "Github Dashboard with badge using Shields.io",
+  "description": "Github Dashboard with badge using badgen.net",
   "main": "index.js",
   "scripts": {
     "start": "ts-node script.ts"
@@ -14,7 +14,8 @@
     "dashboard",
     "oss",
     "github",
-    "shields.io"
+    "badge",
+    "badgen.net"
   ],
   "author": "EmaSuriano <emanuel.suriano@gmail.com>",
   "license": "MIT",
