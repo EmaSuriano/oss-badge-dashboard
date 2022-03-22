@@ -11,22 +11,27 @@
   "columns": [
     {
       "name": "Build",
-      "badge": "https://badgen.net/github/checks/{REPO_URL}/master",
+      "badge": "https://badgen.net/github/checks/{REPO_URL}/master?label=",
       "url": "/actions"
     },
     {
       "name": "Issues",
-      "badge": "https://badgen.net/github/open-issues/{REPO_URL}",
+      "badge": "https://badgen.net/github/open-issues/{REPO_URL}?label=",
       "url": "/issues"
     },
     {
-      "name": "Pull Requests",
-      "badge": "  https://badgen.net/github/open-prs/{REPO_URL}",
+      "name": "Prs",
+      "badge": "  https://badgen.net/github/open-prs/{REPO_URL}?label=",
       "url": "/pulls"
     },
     {
+      "name": "Last Commit",
+      "badge": "https://badgen.net/github/last-commit/{REPO_URL}?label=",
+      "url": "/commits"
+    },
+    {
       "name": "Vulnerabilities",
-      "badge": "https://badgen.net/snyk/{REPO_URL}",
+      "badge": "https://badgen.net/snyk/{REPO_URL}/master?label=",
       "url": "/security"
     }
   ]
