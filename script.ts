@@ -21,14 +21,24 @@ const configSchema = object({
         'Mask is not found in badge',
         (value) => value.includes(MASK_KEY),
       ),
+      url: string(),
     }),
   ),
 });
 
-const getProjectRow = (project: string) =>
-  `| [${project.split('/')[1]}](${GITHUB_PREFIX}${project}) | ${config.columns
-    .map((col) => `![${col.name}](${col.badge.replace(MASK_KEY, project)})`)
+const getProjectRow = (project: string) => {
+  const projectUrl = `${GITHUB_PREFIX}${project}`;
+
+  return `| [${project.split('/')[1]}](${projectUrl}) | ${config.columns
+    .map(
+      (col) =>
+        `[![${col.name}](${col.badge.replace(
+          MASK_KEY,
+          project,
+        )})](${projectUrl}${col.url})`,
+    )
     .join(' | ')} |`;
+};
 
 const config = configSchema.cast(
   JSON.parse(fs.readFileSync('./config.json', 'utf-8')),
