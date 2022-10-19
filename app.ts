@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import { object, array, string } from 'yup';
+import { format } from 'date-fns';
 
 const FILE_NAME = './index.md';
 const MASK_KEY = '{REPO_URL}';
@@ -49,6 +50,8 @@ const content = `# Projects
 | Name | ${config.columns.map((col) => col.name).join(' | ')} |
 | ---- | ${config.columns.map(() => '----').join(' | ')} |
 ${config.projects.map(getProjectRow).join('\n')}
+
+Latest update: ${format(new Date(), 'dd MMM')}
 `;
 
 fs.writeFileSync(FILE_NAME, content);
